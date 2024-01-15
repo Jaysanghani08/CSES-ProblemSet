@@ -23,16 +23,16 @@ typedef set<int> si;
 #define printy cout << "YES\n";
 #define printn cout << "NO\n";
 #define print(var) cout << var << "\n";
-#define printv(v)         \
-    for (auto i : v)      \
-    {                     \
-        cout << i << " "; \
-    }                     \
+#define printv(v)         
+    for (auto i : v)      
+    {                     
+        cout << i << " "; 
+    }                     
     cout << "\n";
-#define inv(v)        \
-    for (auto &i : v) \
-    {                 \
-        cin >> i;     \
+#define inv(v)        
+    for (auto &i : v) 
+    {                 
+        cin >> i;     
     }
 #define endl "\n"
 
